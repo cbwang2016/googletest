@@ -3,6 +3,9 @@
 
 cmake_minimum_required(VERSION 2.8.12)
 
+set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_C_COMPILER gcc)
+
 if (POLICY CMP0048)
   cmake_policy(SET CMP0048 NEW)
 endif (POLICY CMP0048)
