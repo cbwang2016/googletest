@@ -3,8 +3,8 @@
 
 cmake_minimum_required(VERSION 2.8.12)
 
-set(CMAKE_CXX_COMPILER g++)
-set(CMAKE_C_COMPILER gcc)
+set(CMAKE_CXX_COMPILER /nfs-share/software/gcc/9.2.0/bin/g++)
+set(CMAKE_C_COMPILER /nfs-share/software/gcc/9.2.0/bin/gcc)
 
 if (POLICY CMP0048)
   cmake_policy(SET CMP0048 NEW)
